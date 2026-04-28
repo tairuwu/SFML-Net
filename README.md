@@ -7,4 +7,4 @@ Micro-expressions are caused by brief and subtle facial muscle movements and can
 
 ## 🧠 Framework
 
-![Framework of SFML-Net](SFML.pdf)
+![Framework of SFML-Net](SFML.png)
