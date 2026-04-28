@@ -1,2 +1,10 @@
 # SFML-Net: Spatial Feature-Guided Motion Learning Network for Micro-Expression Recognition
 This repository currently provides the core implementation of SFML-Net. 
+
+## 📌 Abstract
+
+Micro-expressions are caused by brief and subtle facial muscle movements and can reveal an individual’s concealed genuine emotions. Therefore, micro-expression recognition plays an important role in emotion analysis and behavior understanding. Although existing methods have achieved notable progress in spatiotemporal feature modeling, effectively capturing subtle facial muscle motions while simultaneously achieving robust fusion between motion features and facial spatial structure remains a key challenge in this field. To address this issue, we propose a Spatial Feature–Guided Motion Learning Network (SFML-Net). The proposed network adopts a dual-branch architecture with temporal and spatial branches. In the temporal branch, a Local Block (LB) module is designed to divide optical-flow features into multiple local regions, thereby emphasizing locally salient motion variations. In the spatial branch, Single-Head Vision Transformer (SHViT) is introduced to extract spatial positional information from the onset frame, modeling global long-range dependencies while preserving part of the original spatial features to enhance spatial perception. In addition, we propose a Self-Guided (SG) module that leverages spatial features as priors to guide motion feature learning, thereby facilitating effective alignment between facial spatial structures and motion dynamics and enabling complementary enhancement of both feature types. Extensive experiments on multiple benchmark datasets, including SMIC, CASME II, SAMM, and Composite, demonstrate that SFML-Net consistently outperforms existing state-of-the-art methods. Furthermore, ablation studies validate the effectiveness of the proposed network design, showing that the method exhibits stronger generalization and discriminative capability under limited training samples. Our code is publicly available at https://github.com/tairuwu/SFML-Net.
+
+## 🧠 Framework
+
+![Framework of SFML-Net](./fig/framework.png)
