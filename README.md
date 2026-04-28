@@ -8,3 +8,19 @@ Micro-expressions are caused by brief and subtle facial muscle movements and can
 ## 🧠 Framework
 
 ![Framework of SFML-Net](SFML.png)
+
+## 📄 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{Zhang2026SFMLNet,
+  title   = {SFML-Net: Spatial Feature-Guided Motion Learning Network for Micro-Expression Recognition},
+  author  = {Zhang, Meng and Zhu, Tao and Gong, Huan and Yang, Wenzhong and Wei, Fuyan and Yao, Long},
+  journal = {Journal of King Saud University Computer and Information Sciences},
+  year    = {2026},
+  volume  = {38},
+  number  = {3},
+  pages   = {119},
+  doi     = {10.1007/s44443-026-00498-9}
+}
